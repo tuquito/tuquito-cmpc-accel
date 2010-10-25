@@ -7,7 +7,7 @@ Standards-Version: 3.8.1
 
 Package: tuquito-accel
 Architecture: all
-Depends: python-pygame, halevt
+Depends: python-pygame, halevt, wmctrl
 Description: Accelerometer in classmatePC
  Accelerometer in classmatePC.
  *Tuquito Team! - 2010

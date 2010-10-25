@@ -1,3 +1,9 @@
+tuquito-accel (0.1-2) maverick; urgency=low
+
+  * autostart fixed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 25 Oct 2010 20:57:55 -0300
+
 tuquito-accel (0.1-1) maverick; urgency=low
 
   * script optimized
