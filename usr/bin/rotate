@@ -1,0 +1,37 @@
+#!/bin/bash
+DEVICE=12
+CURRENT="$(xrandr -q --verbose | grep ' connected ' | awk '{print $5}')"
+case "$1" in
+    normal)
+        xrandr -o normal;
+        xinput set-prop $DEVICE "Evdev Axes Swap" 0 &
+        xinput set-prop $DEVICE "Evdev Axis Inversion" 0 0 &
+        if [ "x$CURRENT" = "xright" -o "x$CURRENT" = "xleft" ]; then
+            openbox --restart &
+        fi
+        ;;
+    inverted)
+        xrandr -o inverted;
+        xinput set-prop $DEVICE "Evdev Axes Swap" 0 &
+        xinput set-prop $DEVICE "Evdev Axis Inversion" 1 1 &
+        if [ "x$CURRENT" = "xright" -o "x$CURRENT" = "xleft" ]; then
+            openbox --restart &
+        fi
+        ;;
+    left)
+        xrandr -o left;
+        xinput set-prop $DEVICE "Evdev Axes Swap" 1 &
+        xinput set-prop $DEVICE "Evdev Axis Inversion" 1 0 &
+        if [ "x$CURRENT" = "xinverted" -o "x$CURRENT" = "xnormal" ]; then
+            openbox --restart &
+        fi
+        ;;
+    right)
+        xrandr -o right;
+        xinput set-prop $DEVICE "Evdev Axes Swap" 1 &
+        xinput set-prop $DEVICE "Evdev Axis Inversion" 0 1 &
+        if [ "x$CURRENT" = "xinverted" -o "x$CURRENT" = "xnormal" ]; then
+            openbox --restart &
+        fi
+        ;;
+esac

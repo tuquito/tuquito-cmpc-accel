@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Tuquito Accelerometer
+Comment=Accelerometer in classpatePC
+Type=Application
+Exec=halevt -c /usr/lib/tuquito/tuquito/tuquito-accel/accel.xml
+Terminal=false
+Categories=Utility;

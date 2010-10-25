@@ -1,0 +1,13 @@
+Source: tuquito-accel
+Section: misc
+Priority: extra
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+
+Package: tuquito-accel
+Architecture: all
+Depends: python-pygame, halevt
+Description: Accelerometer in classpatePC
+ Accelerometer in classpatePC.
+ *Tuquito Team! - 2010
