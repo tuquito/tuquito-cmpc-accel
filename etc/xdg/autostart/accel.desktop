@@ -2,6 +2,6 @@
 Name=Tuquito Accelerometer
 Comment=Accelerometer in classmatePC
 Type=Application
-Exec=halevt -c /usr/lib/tuquito/tuquito-accel/accel.xml
+Exec=tuquito-accel-launcher
 Terminal=false
 Categories=Utility;
