@@ -1,3 +1,9 @@
+tuquito-cmpc-accel (0.1-5) maverick; urgency=low
+
+  * debian rules fixed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Thu, 28 Oct 2010 03:34:45 -0300
+
 tuquito-cmpc-accel (0.1-4) maverick; urgency=low
 
   * new name

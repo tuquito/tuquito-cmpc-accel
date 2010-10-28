@@ -35,10 +35,10 @@ install: build
 	dh_prep
 	dh_installdirs
 
-	# Add here commands to install the package into debian/tuquito-accel.
-	#$(MAKE) DESTDIR=$(CURDIR)/debian/tuquito-accel install
-	cp -af usr $(CURDIR)/debian/tuquito-accel/
-	cp -af etc $(CURDIR)/debian/tuquito-accel/
+	# Add here commands to install the package into debian/tuquito-cmpc-accel.
+	#$(MAKE) DESTDIR=$(CURDIR)/debian/tuquito-cmpc-accel install
+	cp -af usr $(CURDIR)/debian/tuquito-cmpc-accel/
+	cp -af etc $(CURDIR)/debian/tuquito-cmpc-accel/
 
 
 # Build architecture-independent files here.
