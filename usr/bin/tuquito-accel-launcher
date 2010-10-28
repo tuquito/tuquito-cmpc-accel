@@ -3,5 +3,5 @@ TUQUITOACCEL=`ps -A | grep halevt | wc -l`
 if [ $TUQUITOACCEL != 0 ]; then
 	killall halevt
 fi
-halevt -c /usr/lib/tuquito/tuquito-accel/accel.xml &
+halevt -c /usr/lib/tuquito/tuquito-cmpc-accel/accel.xml &
 exit 0

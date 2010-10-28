@@ -3,4 +3,10 @@ tuquito-wia for Debian
 
 Accelerometer in classmatePC
 
+This package was developed by Kay Hanny.
+Copyright (C) 2010  Kay Hannay <klinux@hannay.de> - http://hannay.de/
+
+Was optimized and implemented in Tuquito by Mario Colque <mario@tuquito.org.ar>
+Copyright (C) 2010  Mario Colque <mario@tuquito.org.ar> - http://mariocolque.com.ar
+
  -- Mario Colque <mario@tuquito.org.ar>  Fri, 26 Mar 2010 23:24:17 -0300

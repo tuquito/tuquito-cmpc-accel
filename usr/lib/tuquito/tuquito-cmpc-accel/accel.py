@@ -7,6 +7,8 @@ from pygame.locals import *
 import os
 import time
 
+os.system("cellwriter --hide-window &")
+
 pygame.init()
 joystick.init()
 num_dev = joystick.get_count()

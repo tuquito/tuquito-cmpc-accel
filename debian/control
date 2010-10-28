@@ -1,13 +1,13 @@
-Source: tuquito-accel
+Source: tuquito-cmpc-accel
 Section: misc
 Priority: extra
 Maintainer: Mario Colque <mario@tuquito.org.ar>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.1
 
-Package: tuquito-accel
+Package: tuquito-cmpc-accel
 Architecture: all
-Depends: python-pygame, halevt, wmctrl
+Depends: python-pygame, halevt, cellwriter
 Description: Accelerometer in classmatePC
  Accelerometer in classmatePC.
  *Tuquito Team! - 2010
