@@ -3,7 +3,7 @@
 
     <halevt:Device match="hal.button.type = tablet_mode">
         <halevt:Property name="hal.button.state.value">
-            <halevt:Action value="true" exec="/usr/lib/tuquito/tuquito-accel/accel.py &gt;&gt; ~/.xsession-errors 2&gt;&amp;1 &amp;" />
+            <halevt:Action value="true" exec="/usr/lib/tuquito/tuquito-cmpc-accel/accel.py &gt;&gt; ~/.xsession-errors 2&gt;&amp;1 &amp;" />
             <halevt:Action value="false" exec="ps ax | grep accel.py | grep -v grep | awk '{print (/^V/ ? $0 : $1)}' | xargs kill &gt;&gt; ~/.xsession-errors 2&gt;&amp;1; /usr/bin/rotate normal ; killall cellwriter &amp;" />
         </halevt:Property>
     </halevt:Device>
