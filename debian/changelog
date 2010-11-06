@@ -1,3 +1,9 @@
+tuquito-cmpc-accel (0.1-7) maverick; urgency=low
+
+  * added patch for de number of devices
+
+ -- Mario Colque <mario@tuquito.org.ar>  Sat, 06 Nov 2010 14:56:43 -0300
+
 tuquito-cmpc-accel (0.1-6) maverick; urgency=low
 
   * calibrated
